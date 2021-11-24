@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Web developer</title>
+    
+</head>
+<body>
+    <header>
+        <div>
+            <div class="menu">
+                 <ul>  
+                    <a href="" class="logo">launch.nyc</a>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Social</a></li>
+                    <li><a href="">Page</a></li>
+                    <a href=""class ="button">Build Yours>></a>
+                
+                </ul>
+             </div>
+        <div class="picture">
+             <h1>launchkit.nyc</h1>
+        </div>
+                <div>
+                    <h2>We deliver considered branding products that evoke
+                        engaging emotional responses. Innovative thinking and
+                        attention to detail are the hallmark of our craft.</h2>
+                </div>
+       <div>
+           <center>
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href=""class="button1">Work With Us..</a>
+        </center>
+       </div>
+       <div >
+           <center>
+               <h2>
+                Small. Vibrant. Passionate.
+               </h2>  
+                <div class="image">
+                    <img src="images/nyc2.jpg">
+                    <img src="images/nyc3.jpg">
+                    <img src="images/nyc4.jpg">
+                
+                </div>
+                
+            </center>
+            <div class="row">
+                 
+                <div class="column-1">
+                 <h3>Daniel Avery</h3>
+                 <p>Founder & CEO. Having worked in some of New York's biggest agencies, Daniel's radical vision required a newfound venture.</p>
+                </div>
+                <div class="column-2">
+                    
+                <h3>Joseph Ginsberg</h3>
+                  <p>Creative Director and Co-Founder, Joseph's years of experience bring a unique and distinguished look to our varied client projects</p>
+                </div>
+                <div class="column-3">
+                    
+                  <h3>Alice Cole</h3>
+                 <p>Artistic Director and lover of cats, Alice's keen sense of style informs our overall visual direction. She has worked in agencies across the country.</p>
+                </div>
+            </div>     
+            </div>
+       </div>
+       
+    </div>
+    <div>
+        <div>
+            <h2>Guiding Principles.</h2>
+        </div>
+        <dic class="row2" >
+            <div class="column-4">
+                <h3>1. Simplicity Trumps All</h3>
+                <p>Over complicating the problem overcomplicates the solution. A focussed and strategic approach yields the most effective outcomes.</p>
+            </div>
+            <div class="column-5">
+                <h3>2. Iterate Then Iterate</h3>
+                <p>Never rest on your laurels. Nothing of worth is perfected on first attempt - so we make it our mission to perfect every last detail.</p>
+            </div>
+        </dic>
+        <div class="row3">
+            <div class="column-6">
+                <h3>3. Deliver & Awe</h3>
+                <p>We take deadlines seriously. We're ready to deliver your next project on time and on budget, with results that blow you away.</p>
+            </div>
+            <div class="column-7">
+                <h3>4. For The People</h3>
+                <p>We believe in collaboration and collegiality - relationships are at the core of our work both internally and with clients.</p>
+            </div>
+        </div>
+        <div>
+            <h1> </h1>
+        </div>
+    </div>
+       <div class="picture2">
+           <div>
+               <h1>the essence of contemporary NYC.</h1>
+           </div>        
+       </div>
+       <div>
+        <center>
+            <div class="images2">
+                <a href="images/nycw1.jpg"target=blank><img src="images/nycw1.jpg">
+                <a href="images/nycw2.jpg"target=blank> <img src="images/nycw2.jpg">
+                 <a href="images/nycw3.jpg"target=blank><img src="images/nycw3.jpg">
+            </div>
+        </center>
+       </div>
+       
+        <div id="Testimonail" >
+            <center>
+            <div class="avatar">
+                
+                <div>
+                    <h3>“They responded to our brief with enthusiasm.<br/> Their experience was invaluable for our business.”</h3>
+                    <img alt="Avatar" src="Images/avatar-1.png" style="width: 5%" >
+                    <p>
+                        <em>— Will Saul, CLOSE</em>
+                    </p>
+                </div>
+            </div>
+            <div class="avatar">
+                <div >
+                    <h3> “We knew our brand needed an overhaul and<br/>the team delivered exactly what we were looking for”</h3>
+                    <img alt="Avartar" src="Images/avatar-2.png"  style="width: 5%">
+                    <p>
+                        <em>— Jon Hopkins, Immunity</em>
+                    </p>
+                </div>
+            </div>
+            <div class="avatar">
+                <div >
+                    <h3>“Our click-through rate doubled in a matter of days.<br/>We are so happy with the results!”</h3>
+                    <img alt="Avatar" src="images/avatar-3.png" style="width: 5%">
+                    <p>
+                        <em>— Jesse Ware, Devotion</em>
+                    </p>
+                </div>
+            </div>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+              </div>
+            <script>
+                var slideIndex = 0;
+                showSlides();
+                
+                function showSlides() {
+                  var i;
+                  var slides = document.getElementsByClassName("avatar");
+                  var dots = document.getElementsByClassName("dot");
+                  for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                  }
+                  slideIndex++;
+                  if (slideIndex > slides.length) {slideIndex = 1}    
+                  for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                  setTimeout(showSlides, 6000); // Change image every 2 seconds
+                }
+                </script>
+        </div>
+        
+        <div class="text-center">
+            <div class="icon">
+                <center>
+                
+                <td>
+                    <p>Insta<i class="fa fa-instagram" aria-hidden="true"></i>Gram</p>
+                    <strong>We 're Snap happy</strong>
+                <p>Stay connected with us@mrareweb for updates
+                <br>and super special exclusive offers.</p>
+                </td>
+                </center>
+            </div>
+        <br/><br/><br/><br/><br/><br/>
+        
+        </div>
+        <div class="picture3">
+            <div>
+                <h1>see you soon.</h1>
+            </div>
+        </div>
+        </div>
+        <div class="border" > 
+            <br/><br/><br/>
+            <h3 style="color:rgb(10, 10, 15);">FOLLOW <a href="https://www.facebook.com/vannak.phanith.9">@vannakphanith</a> FOR UPDATES</h3>
+        </div>
+        <div>
+            <ul>
+                <li class="li">
+                    <p>launchkit</p>
+                    <input type="text" placeholder="Newsletter Sigup" ><input type="submit" value="Go"><br/><br/>
+                    <h6>© Copyright 2015 Medium Rare - All Rights Reserved</h6>
+                </li> 
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                <li class="li1">
+                    <h5>MORE INFO</h5>
+                        <p><a  href="" style="color:blue;"> About</a><br/> <a href="" style="color:blue;">News</a><br/><a href="" style="color:blue;"> FAQ</a><br/><a href="" style="color:blue;"> Privacy</a><br/>
+                            <a href="" style="color:blue;"> Policy</a><br/><a href="" style="color:blue;">Terms of Use</a></p>
+                </li>
+                <li class="li2">
+                    <h5>SOCIAL</h5>
+                    <p><a href="https://www.facebook.com/vannak.phanith.9"style="color:blue;">Facebook</a><br/>
+                        <a href="https://www.facebook.com/vannak.phanith.9"style="color:blue;">Twitter</a><br/><a href=""style="color:blue;">Instagram</a><br/><br/><br/><br/></p>
+                </li>
+            </ul>
+        </div>
+    </header>
+</body>
+</html>
